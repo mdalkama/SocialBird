@@ -1,0 +1,54 @@
+/* Reset default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px; /* Add padding instead of margin to create space from left and right */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    padding: 20px; /* Add padding to container */
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px; /* Add some space below headings */
+    color: #333333; /* Dark gray text color */
+}
+
+p {
+    margin-bottom: 15px; /* Add some space below paragraphs */
+    color: #666666; /* Medium gray text color */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin-bottom: 15px; /* Add some space below lists */
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add more styles for specific elements as needed */
