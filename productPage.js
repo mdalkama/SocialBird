@@ -1,101 +1,19 @@
-// const products = [
-//     { 
-//         id:1,
-//         category:'instagram',
-//         price:89,
-//         image:'89RS.001.jpeg'
-//     },
-//     {
-//         id:2,
-//         category:'instagram',
-//         title:'Premium 1:1 Ratio Instagram Post Design',
-//         price:149,
-//         image:'89RS.002.jpeg'
-//     },
-//     {
-//         id:3,
-//         category:'instagram',
-//         price:249,
-//         image:'89RS.003.jpeg'
-//     },
-//     { 
-//         id:4,
-//         category:'instagram',
-//         price:399,
-//         image:'89RS.004.jpeg'
-//     },    
-//     { 
-//         id:1,
-//         category:'facebook',
-//         price:89,
-//         image:'89RS.005.jpeg'
-//     },
-//     {
-//         id:2,
-//         category:'facebook',
-//         price:149,
-//         image:'89RS.006.jpeg'
-//     },
-//     {
-//         id:3,
-//         category:'facebook',
-//         price:249,
-//         image:'89RS.007.jpeg'
-//     },
-//     { 
-//         id:4,
-//         category:'facebook',
-//         price:399,
-//         image:'89RS.008.jpeg'
-//     },
-//     { 
-//         id:1,
-//         category:'youtube',
-//         price:89,
-//         image:'89RS.009.jpeg'
-//     },
-//     {
-//         id:2,
-//         category:'youtube',
-//         price:149,
-//         image:'89RS.010.jpeg'
-//     },
-//     {
-//         id:3,
-//         category:'youtube',
-//         price:249,
-//         image:'89RS.011.jpeg'
-//     },
-//     { 
-//         id:4,
-//         category:'youtube',
-//         price:249,
-//         image:'89RS.012.jpeg'
-//     },
-//     { 
-//         id:5,
-//         category:'youtube',
-//         price:399,
-//         image:'89RS.013.jpeg'
-//     }
-// ]
-
 
 // Sample products array (same as the one used on the previous page)
 const products = [
-    { id: 1, category: 'instagram', price: 89, image: '89RS.001.jpeg', title: 'Instagram Post 1' },
+    { id: 1, category: 'instagram', price: 89, image: '89RS.001.jpeg', title: 'Premium 1080 x 566 px Instagram Post Design' },
     { id: 2, category: 'instagram', price: 149, image: '89RS.002.jpeg', title: 'Premium 1:1 Ratio Instagram Post Design' },
-    { id: 3, category: 'instagram', price: 249, image: '89RS.003.jpeg', title: 'Instagram Post 3' },
-    { id: 4, category: 'instagram', price: 399, image: '89RS.004.jpeg', title: 'Instagram Post 4' },
-    { id: 5, category: 'facebook', price: 89, image: '89RS.005.jpeg', title: 'Facebook Post 1' },
-    { id: 6, category: 'facebook', price: 149, image: '89RS.006.jpeg', title: 'Facebook Post 2' },
-    { id: 7, category: 'facebook', price: 249, image: '89RS.007.jpeg', title: 'Facebook Post 3' },
-    { id: 8, category: 'facebook', price: 399, image: '89RS.008.jpeg', title: 'Facebook Post 4' },
-    { id: 9, category: 'youtube', price: 89, image: '89RS.009.jpeg', title: 'YouTube Video 1' },
-    { id: 10, category: 'youtube', price: 149, image: '89RS.010.jpeg', title: 'YouTube Video 2' },
-    { id: 11, category: 'youtube', price: 249, image: '89RS.011.jpeg', title: 'YouTube Video 3' },
-    { id: 12, category: 'youtube', price: 249, image: '89RS.012.jpeg', title: 'YouTube Video 4' },
-    { id: 13, category: 'youtube', price: 399, image: '89RS.013.jpeg', title: 'YouTube Video 5' }
+    { id: 3, category: 'instagram', price: 249, image: '89RS.003.jpeg', title: 'Premium 1:1 Ratio Instagram Logo Design' },
+    { id: 4, category: 'instagram', price: 399, image: '89RS.004.jpeg', title: 'Premium Instagram Ads' },
+    { id: 5, category: 'facebook', price: 89, image: '89RS.005.jpeg', title: 'Premium 1:1 Ratio Facebook Post Design' },
+    { id: 6, category: 'facebook', price: 149, image: '89RS.006.jpeg', title: 'Premium 1200 x 630 px Facebook Post Design' },
+    { id: 7, category: 'facebook', price: 249, image: '89RS.007.jpeg', title: 'Premium 1:1 Ratio Facebook Logo Design' },
+    { id: 8, category: 'facebook', price: 399, image: '89RS.008.jpeg', title: 'Premium Facebook Ads' },
+    { id: 9, category: 'youtube', price: 89, image: '89RS.009.jpeg', title: 'Premium 1:1 Ratio Youtube Post Design' },
+    { id: 10, category: 'youtube', price: 149, image: '89RS.010.jpeg', title: 'Premium 2048 x 1152 px Youtube Banner Design' },
+    { id: 11, category: 'youtube', price: 249, image: '89RS.011.jpeg', title: 'Premium 1280 x 720 px Youtube Thumbnail Design' },
+    { id: 12, category: 'youtube', price: 249, image: '89RS.012.jpeg', title: 'Premium 1:1 Ratio Youtube Logo Design' },
+    { id: 13, category: 'youtube', price: 399, image: '89RS.013.jpeg', title: 'Premium Youtube Ads' }
 ];
 
 const productPage = document.querySelector('.product-page');
